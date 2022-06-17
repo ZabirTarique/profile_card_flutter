@@ -119,6 +119,12 @@ class MyApp extends StatelessWidget {
                       width: 30,
                       child: Image.asset('assets/images/linkedin.png',
                           fit: BoxFit.cover)),
+                  const SizedBox(width: 10,),
+                  SizedBox(
+                      height: 40,
+                      width: 40,
+                      child: Image.asset('assets/images/youtubes.png',
+                          fit: BoxFit.cover)),
                   // SizedBox(
                   //     height: 30,
                   //     width: 100,
