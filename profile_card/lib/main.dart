@@ -125,67 +125,10 @@ class MyApp extends StatelessWidget {
                       width: 40,
                       child: Image.asset('assets/images/youtubes.png',
                           fit: BoxFit.cover)),
-                  // SizedBox(
-                  //     height: 30,
-                  //     width: 100,
-                  //     child: Image.asset('assets/images/youtube.png',
-                  //         fit: BoxFit.cover)),
                 ],
               ),
             )
         )
-      ],
-    );
-  }
-
-/*
-* Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Icon(
-                  Icons.mail,
-                  color: Colors.teal,
-                ),
-                SizedBox(width: 10.0),
-                Text("fahim@gmail.com",style: TextStyle(
-                    color: Colors.teal,
-                    fontWeight: FontWeight.bold,
-                    fontSize: 20),)
-
-              ],
-            )
-*
-* */
-  Widget layoutChallenge43(BuildContext context) {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      crossAxisAlignment: CrossAxisAlignment.center,
-      children: [
-        Container(
-          height: double.infinity,
-          width: 100.0,
-          color: Colors.red,
-        ),
-        Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Container(
-              height: 100.0,
-              width: 100.0,
-              color: Colors.yellow,
-            ),
-            Container(
-              height: 100.0,
-              width: 100.0,
-              color: Colors.green,
-            ),
-          ],
-        ),
-        Container(
-          height: double.infinity,
-          width: 100.0,
-          color: Colors.blue,
-        ),
       ],
     );
   }
